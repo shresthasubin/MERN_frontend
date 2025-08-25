@@ -2,12 +2,12 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 export const publicAPI = axios.create({
-    baseURL: 'https://mern-backend-ebr3.onrender.com/api',
+    baseURL: 'https://mern-final-backend-c9vg.onrender.com/api',
     withCredentials: true
 });
 
 export const privateAPI = axios.create({
-    baseURL: 'https://mern-backend-ebr3.onrender.com/api',
+    baseURL: 'https://mern-final-backend-c9vg.onrender.com/api',
     withCredentials: true
 })
 
