@@ -3,7 +3,7 @@ import {Navigate} from 'react-router-dom'
 import Cookies from 'js-cookie'
 
 const ProtectedRoutes = ({children, allowedRoutes}) => {
-    const userCookie = Cookies.get('employee');
+    const userCookie = Cookies.get('user');
     console.log(userCookie)
 
     if (!userCookie) return <Navigate to='/' replace/>
